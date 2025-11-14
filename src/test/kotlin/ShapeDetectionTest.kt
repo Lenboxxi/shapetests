@@ -97,6 +97,9 @@ class ShapeDetectionTest {
         )
     }
 
+    // ============================================
+    // -------- Helper Function -------------------
+    // ============================================
 
     fun generateParallelogramAngles(): Stream<Arguments> {
         val args = mutableListOf<Arguments>()
